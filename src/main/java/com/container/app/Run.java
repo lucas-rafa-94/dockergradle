@@ -18,6 +18,7 @@ public class Run {
     @ResponseBody()
     public ResponseEntity index() {
         HttpHeaders responseHeaders = new HttpHeaders();
+        String rr = "";
         try {
             responsePayload = Unirest.get("https://gturnquist-quoters.cfapps.io/api/random")
                     .asJson().getBody().toString();

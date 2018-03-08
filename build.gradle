@@ -1,5 +1,5 @@
 group 'com.spring.container'
-version '1.0-SNAPSHOT'
+
 
 buildscript {
     ext {
